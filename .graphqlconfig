@@ -1,0 +1,12 @@
+{
+  "name": "Kaloyan Yosifov",
+  "schemaPath": "project_schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Kaloyan Yosifov Graphql Api": {
+        "url": "http://localhost:8000/___graphql",
+        "introspect": true
+      }
+    }
+  }
+}

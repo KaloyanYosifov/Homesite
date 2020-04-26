@@ -70,3 +70,4 @@ yarn-error.log
 
 # PHPSTORM
 .idea
+project_schema.graphql

@@ -1,0 +1,13 @@
+.utilities-basic {
+  display: flex;
+  justify-content: space-between;
+
+  & > div {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+.utilities-container {
+  margin-bottom: calculateRem(20px);
+}

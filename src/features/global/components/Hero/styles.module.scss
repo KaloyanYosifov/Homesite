@@ -2,6 +2,7 @@
   padding-top: calculateRem(40px);
   padding-bottom: calculateRem(20px);
   background: $primary-color;
+  margin-bottom: calculateRem(32px);
 
   & > div {
     display: flex;

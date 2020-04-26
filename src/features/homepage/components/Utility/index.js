@@ -22,7 +22,7 @@ const Utility = ({ utility }) => {
 };
 
 Utility.propTypes = {
-    utility: PropTypes.isRequired,
+    utility: PropTypes.any.isRequired,
 };
 
 export default Utility;

@@ -16,11 +16,20 @@ import useUtilities from '@/features/homepage/hooks/useUtilities';
 import Shell from '@/features/global/components/Shell';
 
 const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
+    responsive: [
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2,
+            },
+        },
+    ],
 };
 
 const Utilities = () => {

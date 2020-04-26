@@ -1,4 +1,5 @@
 .hero {
+  $self: &;
   padding-top: calculateRem(40px);
   padding-bottom: calculateRem(20px);
   background: $primary-color;
@@ -20,5 +21,20 @@
 
   & &__sidebar {
     flex: 0 0 50%;
+  }
+
+  @media #{$mobile-breakpoint} {
+    & > div {
+      flex-direction: column;
+    }
+
+    #{$self}__content,
+    #{$self}__sidebar {
+      flex: 0 0 100%;
+    }
+
+    #{$self}__content {
+      margin-bottom: calculateRem(20px);
+    }
   }
 }

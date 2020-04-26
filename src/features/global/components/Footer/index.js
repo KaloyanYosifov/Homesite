@@ -6,10 +6,11 @@ import React from 'react';
 /**
  * Internal dependencies.
  */
-import Shell from '@/features/global/components/Shell';
-
 import styles from './styles.module.scss';
+
+import Shell from '@/features/global/components/Shell';
 import Socials from '@/features/global/components/Socials';
+
 
 const Footer = () => {
     return (

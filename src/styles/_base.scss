@@ -10,7 +10,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: $secondary-color;
+  color: #fff;
+  font-weight: 600;
+}
+
+strong {
+  font-weight: 600;
 }
 
 h1 {
@@ -49,4 +54,5 @@ a {
 
 p {
   margin-bottom: calculateRem(10px);
+  line-height: 1.5;
 }

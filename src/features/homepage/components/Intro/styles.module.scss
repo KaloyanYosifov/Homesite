@@ -1,0 +1,10 @@
+.homepage-intro {
+  max-width: calculateRem(400px);
+  margin-left: auto;
+  margin-top: calculateRem(32px);
+
+  :first-child {
+    margin-bottom: calculateRem(48px);
+    color: #fff;
+  }
+}

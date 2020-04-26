@@ -2,6 +2,7 @@
   padding: calculateRem(20px) 0;
   background: $primary-color;
   text-align: center;
+  overflow: hidden;
 
   h5 {
     color: $secondary-color;

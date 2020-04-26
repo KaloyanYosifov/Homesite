@@ -1,6 +1,6 @@
 .shell {
   margin: 0 auto;
-  min-width: calculateRem(320px);
-  max-width: calculateRem(1400px);
+  min-width: 320px;
+  max-width: 1400px;
   padding: 0 calculateRem(15px);
 }

@@ -19,6 +19,10 @@
     border-bottom: 6px solid $primary-color;
     margin-bottom: calculateRem(24px);
 
+    @media #{$small-mobile-breakpoint} {
+      border: 0;
+    }
+
     &:before,
     &:after {
       content: '';
@@ -28,6 +32,10 @@
       top: calculateRem(40px);
       height: calculateRem(140px);
       border-left: 6px solid $primary-color;
+
+      @media #{$small-mobile-breakpoint} {
+        display: none;
+      }
     }
 
     &:after {
@@ -38,6 +46,10 @@
       color: $primary-color;
       text-transform: uppercase;
       margin-bottom: calculateRem(10px);
+
+      @media #{$small-mobile-breakpoint} {
+        font-size: calculateRem(16px);
+      }
     }
   }
 }

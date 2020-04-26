@@ -13,7 +13,9 @@ import styles from './styles.module.scss';
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <Shell />
+            <Shell>
+                <h3>Check me out on</h3>
+            </Shell>
         </footer>
     );
 };

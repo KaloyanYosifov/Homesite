@@ -5,6 +5,22 @@
   & > div {
     flex: 0 0 30%;
     max-width: 30%;
+
+    &:only-child {
+      flex: 1 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media #{$mobile-breakpoint} {
+    flex-direction: column;
+
+    & > div {
+      flex: 1 0 100%;
+      max-width: 100%;
+      border-bottom: 5px solid $primary-color;
+      margin-bottom: calculateRem(15px);
+    }
   }
 }
 

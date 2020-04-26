@@ -12,6 +12,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-bottom-width: 4px;
+    margin-bottom: calculateRem(20px);
   }
 
   & &__body {
@@ -20,5 +21,15 @@
     justify-content: space-between;
     flex: 1;
     padding: calculateRem(10px) calculateRem(20px);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $primary-color;
+      margin-bottom: calculateRem(15px);
+    }
   }
 }

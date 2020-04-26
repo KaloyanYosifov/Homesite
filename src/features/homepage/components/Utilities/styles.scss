@@ -1,0 +1,25 @@
+.utilities-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .slick-track {
+    display: flex;
+    justify-content: space-between;
+    float: none;
+    padding-bottom: 20px;
+  }
+
+  .slick-slide {
+    flex: 1;
+    height: auto;
+    padding: 0 15px;
+
+    & > div {
+      display: flex;
+      width: 100%;
+      height: 100%;
+
+    }
+  }
+}

@@ -10,13 +10,11 @@ import PropTypes from 'prop-types';
 import styles from './styles.module.scss';
 import Shell from '@/features/global/components/Shell';
 
-const Hero = ({ children, title, sidebar }) => {
+const Hero = ({ children, sidebar }) => {
     return (
         <div className={styles.hero}>
             <Shell>
                 <div className={styles.hero__content}>
-                    {title && <h2>{title}</h2>}
-
                     {children}
                 </div>
 
@@ -35,7 +33,6 @@ const Hero = ({ children, title, sidebar }) => {
 Hero.propTypes = {
     children: PropTypes.node.isRequired,
     sidebar: PropTypes.node,
-    title: PropTypes.string,
 };
 
 export default Hero;

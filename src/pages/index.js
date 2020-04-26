@@ -7,6 +7,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 /**
  * Internal dependencies.
  */
+import styles from '@/page-styles/homepage.module.scss';
 import Seo from '@/features/global/components/Seo';
 import Layout from '@/features/global/components/Layout';
 import Hero from '@/features/global/components/Hero';
@@ -15,9 +16,6 @@ const IndexPage = () => {
     const { homepageIntro } = useStaticQuery(graphql`
         query getHomepageIntro {
             homepageIntro: markdownRemark(frontmatter: { location: { eq: "homepage-intro" } }) {
-                frontmatter {
-                    title
-                }
                 html
             }
         }
@@ -26,9 +24,8 @@ const IndexPage = () => {
     return (
         <Layout>
             <Seo title="Home" />
-            <Hero title={homepageIntro.frontmatter.title}>
-                <div dangerouslySetInnerHTML={{ __html: homepageIntro.html }}>
-
+            <Hero>
+                <div className={styles.homepageIntro} dangerouslySetInnerHTML={{ __html: homepageIntro.html }}>
                 </div>
             </Hero>
         </Layout>

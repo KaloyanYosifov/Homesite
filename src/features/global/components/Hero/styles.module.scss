@@ -25,12 +25,14 @@
 }
 
 .hero__content {
-  h2 {
+  flex: 0 0 40%;
+
+  :first-child {
     margin-bottom: calculateRem(20px);
   }
 
-  :not(:only-child) {
-    flex: 0 0 40%;
+  &:only-child {
+    flex: 0 0 100%;
   }
 }
 

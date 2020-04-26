@@ -6,8 +6,8 @@ import React from 'react';
 /**
  * Internal dependencies.
  */
-import Seo from '../features/global/Seo';
-import Layout from '../features/global/Layout';
+import Seo from '@/features/global/components/Seo';
+import Layout from '@/features/global/components/Layout';
 
 const NotFoundPage = () => (
     <Layout>

@@ -10,4 +10,13 @@
   &:hover {
     opacity: .8;
   }
+
+  @media #{$mobile-breakpoint} {
+    margin: 0 auto;
+  }
+
+  @media #{$small-mobile-breakpoint} {
+    width: calculateRem(172.5px);
+    height: calculateRem(29px);
+  }
 }

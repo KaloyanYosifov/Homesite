@@ -1,13 +1,17 @@
+/**
+ * External dependencies.
+ */
 import React from 'react';
 
-import Layout from '../components/Layout/layout';
-import SEO from '../components/seo';
-import Logo from '../components/Logo';
+/**
+ * Internal dependencies.
+ */
+import Seo from '../features/global/Seo';
+import Layout from '../features/global/Layout';
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Home" />
-        <Logo />
+        <Seo title="Home" />
     </Layout>
 );
 

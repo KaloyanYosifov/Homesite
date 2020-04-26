@@ -38,10 +38,15 @@ h6 {
 }
 
 a {
-  color: $secondary-color;
+  color: $tertiary-color;
   transition: opacity .3s;
+  text-decoration: none;
 
   &:hover {
     opacity: .8;
   }
+}
+
+p {
+  margin-bottom: calculateRem(10px);
 }

@@ -1,0 +1,39 @@
+.hero {
+  padding-top: calculateRem(40px);
+  padding-bottom: calculateRem(20px);
+  background: $primary-color;
+  color: #fff;
+
+  & > div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero__content {
+    h2 {
+      margin-bottom: calculateRem(20px);
+    }
+
+    :not(:only-child) {
+      flex: 0 0 40%;
+    }
+  }
+
+  .hero__sidebar {
+    flex: 0 0 50%;
+  }
+}
+
+.hero__content {
+  h2 {
+    margin-bottom: calculateRem(20px);
+  }
+
+  :not(:only-child) {
+    flex: 0 0 40%;
+  }
+}
+
+.hero__sidebar {
+  flex: 0 0 50%;
+}

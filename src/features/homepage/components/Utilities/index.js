@@ -29,6 +29,12 @@ const settings = {
                 slidesToShow: 2,
             },
         },
+        {
+            breakpoint: 479,
+            settings: {
+                slidesToShow: 1,
+            },
+        },
     ],
 };
 
@@ -62,8 +68,8 @@ const Utilities = () => {
     return (
         <div className={styles.utilitiesContainer}>
             <Shell>
-                <div>
-
+                <div className={styles.utilitiesContainer__head}>
+                    <h4>Frameworks and utilities i use</h4>
                 </div>
 
                 {utilities.length <= 3 ? renderBasicLayout() : renderSliderLayout()}

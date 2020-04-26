@@ -1,25 +1,24 @@
 /**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
+ * External dependencies.
  */
-
 import React from 'react';
 import PropTypes from 'prop-types';
+
+/**
+ * Internal dependencies.
+ */
 import Header from '../Header';
+
+import styles from './styles.module.scss';
+import Footer from '../Footer';
 
 const Layout = ({ children }) => {
     return (
         <>
-            <div>
+            <div className={styles.layout}>
                 <Header />
                 <main>{children}</main>
-                <footer>
-                    © {new Date().getFullYear()}, Built with
-                    {` `}
-                    <a href="https://www.gatsbyjs.org">Gatsby</a>
-                </footer>
+                <Footer />
             </div>
         </>
     );

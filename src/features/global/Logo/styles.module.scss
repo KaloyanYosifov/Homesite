@@ -1,6 +1,6 @@
 .logo {
-  width: 432px;
-  height: 72px;
+  width: calculateRem(432px);
+  height: calculateRem(72px);
   transform: scale(.8);
   background-repeat: no-repeat;
   background-size: cover;

@@ -12,3 +12,36 @@ h5,
 h6 {
   color: $secondary-color;
 }
+
+h1 {
+  font-size: calculateRem(40px);
+}
+
+h2 {
+  font-size: calculateRem(32px);
+}
+
+h3 {
+  font-size: calculateRem(28px);
+}
+
+h4 {
+  font-size: calculateRem(24px);
+}
+
+h5 {
+  font-size: calculateRem(20px);
+}
+
+h6 {
+  font-size: calculateRem(16px);
+}
+
+a {
+  color: $secondary-color;
+  transition: opacity .3s;
+
+  &:hover {
+    opacity: .8;
+  }
+}

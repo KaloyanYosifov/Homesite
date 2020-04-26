@@ -1,0 +1,15 @@
+.socials {
+  display: flex;
+  padding: 0;
+  max-width: calculateRem(120px);
+  margin: 0 auto;
+  justify-content: space-between;
+  list-style: none;
+
+  li {
+    a {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}

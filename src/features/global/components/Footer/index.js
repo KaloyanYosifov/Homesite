@@ -9,12 +9,14 @@ import React from 'react';
 import Shell from '@/features/global/components/Shell';
 
 import styles from './styles.module.scss';
+import Socials from '@/features/global/components/Socials';
 
 const Footer = () => {
     return (
         <footer className={styles.footer}>
             <Shell>
-                <h3>Check me out on</h3>
+                <h5>Check me out on</h5>
+                <Socials />
             </Shell>
         </footer>
     );

@@ -1,3 +1,9 @@
 .footer {
+  padding: calculateRem(20px) 0;
   background: $primary-color;
+  text-align: center;
+
+  h5 {
+    color: #eaf0fb;
+  }
 }

@@ -1,8 +1,13 @@
 .logo {
-  width: calculateRem(432px);
-  height: calculateRem(72px);
-  transform: scale(.8);
+  display: block;
+  width: calculateRem(345px);
+  height: calculateRem(58px);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
+  transition: opacity .3s;
+
+  &:hover {
+    opacity: .8;
+  }
 }

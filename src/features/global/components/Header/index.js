@@ -8,8 +8,12 @@ import React from 'react';
  */
 import Logo from '../Logo';
 
+import styles from './styles.module.scss';
+
 const Header = () => (
-    <Logo />
+    <div className={styles.header}>
+        <Logo />
+    </div>
 );
 
 export default Header;

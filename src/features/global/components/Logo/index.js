@@ -10,8 +10,8 @@ import styles from './styles.module.scss';
 
 const Logo = () => {
     return (
-        <div className={styles.logo} style={{ backgroundImage: 'url(/images/logo.svg)' }}>
-        </div>
+        <a href="#" className={styles.logo} style={{ backgroundImage: 'url(/images/logo.svg)' }}>
+        </a>
     );
 };
 

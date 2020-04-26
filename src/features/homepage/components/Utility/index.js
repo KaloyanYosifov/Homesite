@@ -15,7 +15,10 @@ const Utility = ({ utility }) => {
             <div className={styles.utility__head} style={{ backgroundImage: `url(${utility.frontmatter.featuredImage.publicURL})` }}>
             </div>
 
-            <div className={styles.utility__body} dangerouslySetInnerHTML={{ __html: utility.html }}>
+            <div className={styles.utility__body}>
+                <div dangerouslySetInnerHTML={{ __html: utility.html }}>
+
+                </div>
             </div>
         </div>
     );

@@ -18,6 +18,7 @@ import Shell from '@/features/global/components/Shell';
 const settings = {
     dots: false,
     infinite: true,
+    arrows: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,

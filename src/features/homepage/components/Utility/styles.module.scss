@@ -1,0 +1,24 @@
+.utility {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px 5px 5px;
+  background: #fff;
+  color: #67799c;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
+  overflow: hidden;
+
+  & &__head {
+    padding: 10px 20px 83.5%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom-width: 4px;
+  }
+
+  & &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px 20px;
+  }
+}

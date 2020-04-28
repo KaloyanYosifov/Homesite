@@ -47,7 +47,7 @@ const init = async () => {
     await aws.command(`--profile ${s3AwsProfile} s3 rm "s3://${s3Bucket}/" --recursive`);
 
     console.log('Uploading new files to S3');
-    await aws.command(`--profile ${s3AwsProfile} s3 cp --recursive ./public/ "s3://${s3Bucket}/"`);
+    await aws.command(`--profile ${s3AwsProfile} s3 cp --acl public-read --recursive ./public/ "s3://${s3Bucket}/"`);
 
     console.log('Invalidating cloudfront Cache');
     await aws.command(`--profile ${cloudFroundInvalidatorProfile} cloudfront create-invalidation --distribution-id ${cloudfrontDistributionId} --paths "/*"`);

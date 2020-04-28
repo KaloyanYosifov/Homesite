@@ -6,7 +6,10 @@
   & > :first-child {
     margin-bottom: calculateRem(48px);
     color: #fff;
-    text-align: center;
+
+    @media #{$mobile-breakpoint} {
+      text-align: center;
+    }
   }
 
   @media #{$mobile-breakpoint} {

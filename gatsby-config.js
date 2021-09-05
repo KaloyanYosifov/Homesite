@@ -39,14 +39,12 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-prefetch-google-fonts`,
+            resolve: `gatsby-plugin-google-fonts`,
             options: {
                 fonts: [
-                    {
-                        family: `Rubik`,
-                        variants: [`400`, '500', `700`, '900'],
-                    },
+                    'Rubik\:400,500,700,900',
                 ],
+                display: 'swap',
             },
         },
         'gatsby-transformer-remark',

@@ -57,5 +57,23 @@ module.exports = {
                 path: `${__dirname}/src/content`,
             },
         },
+        {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+                trackingIds: [
+                    'UA-143022869-1',
+                ],
+                gtagConfig: {
+                    optimize_id: 'OPT_CONTAINER_ID',
+                    anonymize_ip: true,
+                    cookie_expires: 0,
+                },
+                // This object is used for configuration specific to this plugin
+                pluginConfig: {
+                    head: false,
+                    respectDNT: false,
+                },
+            },
+        },
     ],
 };

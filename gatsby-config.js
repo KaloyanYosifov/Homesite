@@ -59,7 +59,7 @@ module.exports = {
             resolve: `gatsby-plugin-google-gtag`,
             options: {
                 trackingIds: [
-                    'UA-143022869-1',
+                    'G-JE52G0NPPS',
                 ],
                 gtagConfig: {
                     optimize_id: 'OPT_CONTAINER_ID',

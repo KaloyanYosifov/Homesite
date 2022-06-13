@@ -4,8 +4,8 @@ location: homepage-intro
 
 ## Fullstack Developer
 
-Hello, everybody, my name is **Kaloyan Yosifov** and I am a Mid Level Full Stack developer
-at <a href="https://htmlburger.com" target="_blank">HTMLBurger</a>.
+Hello, everybody, my name is **Kaloyan Yosifov** and I am a Fullstack developer
+at <a href="https://taprolabs.de" target="_blank">Tapro Labs</a>.
 
 At my free time, I am studying about new tricks and more in programming. Sometimes even creating my own utilities, libraries or starting a
 big project. Check them out at <a href="https://github.com/KaloyanYosifov" target="_blank">GitHub</a>.

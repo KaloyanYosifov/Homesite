@@ -70,7 +70,7 @@ const Utilities = () => {
         <div className={styles.utilitiesContainer}>
             <Shell>
                 <div className={styles.utilitiesContainer__head}>
-                    <h4>Frameworks and utilities i use</h4>
+                    <h4>What I love</h4>
                 </div>
 
                 {utilities.length <= 3 ? renderBasicLayout() : renderSliderLayout()}

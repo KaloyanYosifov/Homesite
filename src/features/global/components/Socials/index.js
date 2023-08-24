@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 /**
  * Internal dependencies.
@@ -12,12 +12,8 @@ import * as styles from './styles.module.scss';
 
 const socials = [
     {
-        url: 'https://www.facebook.com/kaloqn.iosifov',
-        icon: faFacebookSquare,
-    },
-    {
-        url: 'https://www.instagram.com/yosifovk',
-        icon: faInstagram,
+        url: 'https://www.linkedin.com/in/kyosifov-',
+        icon: faLinkedin,
     },
     {
         url: 'https://github.com/KaloyanYosifov',

@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
  */
 import Header from '../Header';
 
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 import Footer from '../Footer';
 
 const Layout = ({ children }) => {

@@ -6,7 +6,7 @@ import React from 'react';
 /**
  * Internal dependencies.
  */
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 
 import Shell from '@/features/global/components/Shell';
 import Socials from '@/features/global/components/Socials';

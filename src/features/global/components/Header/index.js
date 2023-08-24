@@ -8,7 +8,7 @@ import React from 'react';
  */
 import Logo from '../Logo';
 
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 
 const Header = () => (
     <div className={styles.header}>

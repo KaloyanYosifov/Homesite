@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 /**
  * Internal dependencies.
  */
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 import Shell from '@/features/global/components/Shell';
 
 const Hero = ({ children, sidebar }) => {

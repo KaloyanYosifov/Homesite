@@ -8,7 +8,7 @@ import { faFacebookSquare, faInstagram, faGithub } from '@fortawesome/free-brand
 /**
  * Internal dependencies.
  */
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 
 const socials = [
     {

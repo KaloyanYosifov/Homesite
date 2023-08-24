@@ -8,7 +8,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 /**
  * Internal dependencies.
  */
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 
 const IntroImage = () => {
     const { image } = useStaticQuery(graphql`

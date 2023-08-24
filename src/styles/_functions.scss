@@ -1,8 +1,9 @@
 /**
  * Convert px to rem
  */
+@use "sass:math";
 
 @function calculateRem($size) {
-  $remSize: $size / $font-size;
+  $remSize: math.div($size, $font-size);
   @return #{$remSize}rem;
 }

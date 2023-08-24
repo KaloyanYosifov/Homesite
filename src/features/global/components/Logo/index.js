@@ -6,7 +6,7 @@ import React from 'react';
 /**
  * Internal dependencies.
  */
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 
 const Logo = () => {
     return (

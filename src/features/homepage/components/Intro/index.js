@@ -7,7 +7,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 /**
  * Internal dependencies.
  */
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 import Hero from '@/features/global/components/Hero';
 import IntroImage from '@/features/homepage/components/IntroImage';
 

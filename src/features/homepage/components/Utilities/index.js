@@ -10,7 +10,7 @@ import 'slick-carousel/slick/slick-theme.css';
  * Internal dependencies.
  */
 import './styles.scss';
-import styles from './styles.module.scss';
+import * as styles from './styles.module.scss';
 import Utility from '@/features/homepage/components/Utility';
 import useUtilities from '@/features/homepage/hooks/useUtilities';
 import Shell from '@/features/global/components/Shell';
